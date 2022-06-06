@@ -1,0 +1,32 @@
+{
+  "name": "@oleg-omon/ajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oleg-OMON/ajs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oleg-OMON/ajs/issues"
+  },
+  "homepage": "https://github.com/Oleg-OMON/ajs#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
